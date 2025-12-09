@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marlen Tone | Frontend Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- <style>
+        /* Стили для плавных переходов и анимации */
+        :root {
+            --primary-color: #3399FF;
+            --secondary-color: #00CCFF;
+            --background-dark: #1f1f1f;
+            --text-light: #f4f4f4;
+            --gradient-blue: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-dark);
+            color: var(--text-light);
+            line-height: 1.6;
+            transition: background-color 0.5s ease;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+
+        header {
+            background: var(--gradient-blue);
+            color: #fff;
+            padding: 60px 0;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            animation: gradient-shift 10s ease infinite; /* Анимация градиента */
+        }
+
+        @keyframes gradient-shift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        header h1 {
+            font-size: 3.5em;
+            margin-bottom: 0.1em;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.5em;
+            font-weight: 300;
+        }
+
+        section {
+            padding: 40px 0;
+            border-bottom: 1px solid #333;
+            opacity: 0; /* Для начальной анимации */
+            transform: translateY(20px);
+            animation: fadeIn 1s ease forwards;
+        }
+
+        @keyframes fadeIn {
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Задержка для плавного появления секций */
+        #about { animation-delay: 0.3s; }
+        #skills { animation-delay: 0.6s; }
+        #projects { animation-delay: 0.9s; }
+        #contact { animation-delay: 1.2s; }
+
+        h2 {
+            font-size: 2.2em;
+            color: var(--primary-color);
+            margin-bottom: 25px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        /* Секция навыков */
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .skill-item {
+            background-color: #2a2a2a;
+            padding: 15px 30px;
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: default;
+            font-weight: bold;
+            border-left: 3px solid var(--secondary-color);
+        }
+
+        .skill-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Секция проектов */
+        .project-card {
+            background-color: #2a2a2a;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+
+        .project-card h3 {
+            color: var(--secondary-color);
+            border-bottom: 1px solid #444;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+
+        .project-card a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .project-card a:hover {
+            color: var(--text-light);
+        }
+
+        /* Контакты */
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            font-size: 1.1em;
+            transition: color 0.3s ease;
+        }
+
+        .contact-item i {
+            margin-right: 10px;
+            color: var(--secondary-color);
+            font-size: 1.5em;
+        }
+
+        .contact-item a {
+            color: var(--text-light);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .contact-item a:hover {
+            color: var(--primary-color);
+        }
+
+        /* Соцсети */
+        .social-icons {
+            margin-top: 25px;
+        }
+
+        .social-icons a {
+            color: var(--text-light);
+            margin: 0 15px;
+            font-size: 2.2em;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: var(--primary-color);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #111;
+            font-size: 0.9em;
+        }
+
+        /* Медиа-запросы для адаптивности */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5em;
+            }
+            header p {
+                font-size: 1.2em;
+            }
+            .skills-grid {
+                justify-content: space-around;
+            }
+        }
+    </style> -->
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>MARLEN TONE</h1>
+            <p>JUNIOR FRONTEND DEVELOPER</p>
+        </div>
+    </header>
+
+    <section id="about" class="container">
+        <h2>Обо Мне</h2>
+        <p>Я Junior Frontend Developer, выпускник IT School Okurmen. Увлечен созданием чистых, эффективных и визуально привлекательных веб-приложений. Моя основная экспертиза лежит в **React**, **TypeScript** и **Responsive Design**.</p>
+        <p>Я стремлюсь к созданию высокопроизводительных приложений и активно развиваю свои базовые знания в **Python, Java, Dart**, а также в **Game Development (Unity)**.</p>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>🛠️ Навыки</h2>
+        <div class="skills-grid">
+            <div class="skill-item">React</div>
+            <div class="skill-item">TypeScript</div>
+            <div class="skill-item">JavaScript</div>
+            <div class="skill-item">HTML/CSS</div>
+            <div class="skill-item">Git</div>
+            <div class="skill-item">Vite</div>
+            <div class="skill-item">Python (Основы)</div>
+            <div class="skill-item">Java (Основы)</div>
+            <div class="skill-item">Dart (Основы)</div>
+            <div class="skill-item">Unity (Основы)</div>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>💼 Проекты</h2>
+        <div class="project-card">
+            <h3>Orion — Навигатор в Мире Образования</h3>
+            <p>Orion — твой персональный навигатор в мире образования и карьеры. Мы помогаем школьникам Кыргызстана найти свое призвание, выбрать правильную профессию и получить качественное образование.</p>
+            <p><strong><a href="https://vercel.com/tojgunbaevamantur-pngs-projects" target="_blank">Перейти к проекту <i class="fas fa-external-link-alt"></i></a></strong></p>
+        </div>
+        <div class="project-card">
+            <h3>Интерактивная Веб-Игра (Personal Project)</h3>
+            <p>Разработана с использованием TypeScript и Vite для обеспечения чистой архитектуры, высокой производительности и надежности кода.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>👋 Контакты</h2>
+        <div class="contact-info">
+            <div class="contact-item"><i class="fas fa-envelope"></i> <a href="mailto:mtojgunbaev@gmail.com">mtojgunbaev@gmail.com</a></div>
+            <div class="contact-item"><i class="fas fa-phone-alt"></i> <a href="tel:+996507343454">+996 507 343 454</a></div>
+            <div class="contact-item"><i class="fas fa-map-marker-alt"></i> Bishkek, Kyrgyzstan</div>
+        </div>
+
+        <div class="social-icons">
+            <a href="https://github.com/ваше_имя_пользователя_github" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://t.me/aruna_study" target="_blank" title="Telegram"><i class="fab fa-telegram-plane"></i></a>
+            <a href="https://www.instagram.com/arunastudy" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Marlen Tone. Все права защищены.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
