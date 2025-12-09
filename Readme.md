@@ -1,57 +1,67 @@
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=ваше_имя_пользователя_github&color=3399FF" alt="Просмотры профиля" />
-</div>
+# 👨‍💻 Marlen Tone | Frontend Developer Portfolio
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=3399FF&center=true&vCenter=true&width=435&lines=Привет!+Я+Марлен+Тойгунбаев;Junior+Frontend+Developer;Готов+создавать+крутые+веб-проекты!" alt="Typing SVG" />
-</div>
+Добро пожаловать в репозиторий моего личного портфолио. Это современный, адаптивный веб-сайт, демонстрирующий мои навыки, проекты и контакты.
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+
+## 🌐 О проекте
+
+Этот сайт-визитка разработан с упором на визуальную составляющую и интерактивность. Основная цель — показать мои способности в создании приятных пользовательских интерфейсов.
+
+**Ключевые особенности:**
+* **3D Tilt Effect:** Карточки проектов и навыков имеют интерактивный 3D-эффект наклона, реагирующий на движение мыши (написано на чистом JavaScript).
+* **Neon Glow Design:** Темная тема с неоновыми акцентами (Blue/Cyan градиенты) и эффектами свечения.
+* **Анимации:** Плавное появление контента (`fadeIn`) и живой фон заголовка.
+* **Адаптивность:** Полная поддержка мобильных устройств.
+
+## 💼 Проекты
+
+В портфолио представлены следующие ключевые проекты:
+
+### 1. ⭐ Orion: Навигатор в Мире Образования
+Персональный навигатор для школьников Кыргызстана. Помогает найти призвание, выбрать профессию и получить качественное образование.
+* **Ссылка:** [Смотреть проект](https://vercel.com/tojgunbaevamantur-pngs-projects)
+
+### 2. 🕹️ Interactive Web Game (В разработке)
+Интерактивная веб-игра.
+* **Стек:** React, TypeScript, Vite.
+* **Особенности:** Управление сложным состоянием, компонентная архитектура.
+
+## 🛠️ Технический Стек
+
+Список технологий, которыми я владею и которые упомянуты в портфолио:
+
+* **Frontend Core:** React, TypeScript, JavaScript (ES6+), HTML5, CSS3.
+* **Tools & Version Control:** Git, GitHub, Vite, Webpack.
+* **Design:** Responsive Design (Flexbox/Grid), CSS Variables, Animations.
+* **Backend & Other (Basics):** Python, Java, Dart.
+* **Gamedev:** Unity.
+
+## 🚀 Запуск проекта локально
+
+Этот проект не требует сборки (npm install), так как он упакован в единый HTML файл для максимальной производительности и простоты.
+
+1.  Клонируйте репозиторий:
+    ```bash
+    git clone [https://github.com/Marleen69/portfolio.git](https://github.com/Marleen69/portfolio.git)
+    ```
+    *(Примечание: Замените ссылку выше на актуальную ссылку вашего репозитория)*
+
+2.  Просто откройте файл `index.html` в вашем браузере.
+
+## 📬 Контакты
+
+Я открыт для предложений по работе и сотрудничеству.
+
+* **Телефон:** [+996 507 343 454](tel:+996507343454)
+* **Email:** [mtojgunbaev@gmail.com](mailto:mtojgunbaev@gmail.com)
+* **Telegram:** [@Silence_0_l](https://t.me/@Silence_0_l)
+* **GitHub:** [Marleen69](https://github.com/Marleen69)
+* **Instagram:** [marlen_7.0](https://www.instagram.com/marlen_7.0?igsh=MWNvYm1nc3dteXhieg==)
+* **Локация:** Бишкек, Кыргызстан
 
 ---
-
-## 👨‍💻 Обо Мне
-
-Я **Junior Frontend Developer**, страстно увлеченный созданием чистых, эффективных и визуально привлекательных веб-приложений. Моя главная цель — применять свой опыт в **React**, **TypeScript** и **Responsive Design** для создания высокопроизводительных приложений.
-
-✨ **Ключевые Навыки:** React, TypeScript, JavaScript, HTML/CSS, Git, Vite, Python (основы).
-
----
-
-## 🛠️ Стек Технологий
-
-<div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,typescript,javascript,html,css,git,vite,python,java,dart,unity&theme=dark" alt="Мои Скиллы" />
-  </a>
-</div>
-
----
-
-## 💼 Мои Проекты
-
-### ⭐ Orion: Навигатор в Мире Образования
-* **Описание:** Orion — это ваш персональный навигатор в мире образования и карьеры, помогающий школьникам Кыргызстана найти свое призвание.
-* **Ссылка на Проект:** [https://vercel.com/tojgunbaevamantur-pngs-projects](https://vercel.com/tojgunbaevamantur-pngs-projects)
-
----
-
-## 📊 Активность на GitHub
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ваше_имя_пользователя_github&show_icons=true&theme=gotham&hide_border=true&rank_icon=github&count_private=true" alt="Статистика GitHub" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ваше_имя_пользователя_github&theme=gotham&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="Статистика Стриков" />
-</div>
-
----
-
-## 👋 Контакты
-
-| Канал | Детали | Иконка/Ссылка |
-| :--- | :--- | :--- |
-| **Email** | mtojgunbaev@gmail.com | <a href="mailto:mtojgunbaev@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a> |
-| **Telegram** | @aruna_study | <a href="https://t.me/aruna_study"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"></a> |
-| **Instagram** | @arunastudy | <a href="https://www.instagram.com/arunastudy"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a> |
-
-<br>
-<p align="center">
-  Сделано с ❤️. Спасибо за визит!
-</p>
+*Made with ❤️ by Marlen Tone © 2025*
